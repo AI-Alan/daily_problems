@@ -44,6 +44,17 @@ int main(){
         printf("%f",num1);
      }
 
+     //********adding one more function in calculator:
+     //adding modulo operator here
+     else if(opt == '%'){
+         int num1_m = (int)num1;
+         int num2_m = (int)num2;
+
+         num1 = num1_m%num2_m;
+         printf("%d",(int)num1);
+     }
+     
+
      scanf(" %c",&flag);
 
      if (flag == 'q'  || flag == 'Q')
